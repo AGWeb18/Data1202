@@ -17,6 +17,18 @@ Before starting, you should have a basic understanding of:
 ### Course content
 - Finish off developing a "JOIN" in Python
 
+# Join the two DataFrames on a common column
+# Replace 'common_column' with the name of the column that the two tables have in common
+
+```py
+#   JOIN Syntax
+df = pd.merge(df1, df2, on='common_column', how='left')
+```
+
+### REMINDER - Joins
+![Joins](https://www.w3schools.com/sql/img_leftjoin.gif)
+
+
 Then: 
 - Understanding what functions are and why they're useful
 - Using built-in Python functions - len(), str(), int()
