@@ -37,11 +37,28 @@ raw_df.loc[(raw_df['price'] >= 200), "price_group"] = "expensive"
 selected_cols = raw_df[['host_name', 'price_group','price','room_type', 'neighbourhood_group']]
 
 
-
-#   Perform joins 
 #   Aggregates = Group By 
 #   Whats the average price by room type by neighbourhood
-print(selected_cols.groupby(['room_type', 'neighbourhood_group'])['price'].mean().reset_index())
+# print(selected_cols.groupby(['room_type', 'neighbourhood_group'])['price'].mean().reset_index())
+
+#   Perform JOINS (SQL) 
+# raw_df -- df1
+# df_host_dim  -- d2
+df_host_dim = pd.read_csv("host_dim.csv")
+
+
+#   INNER join in Python 
+df_inner = pd.merge(left=raw_df, right=df_host_dim, on="host_id", how='inner')
+print(len(df_inner))
+
+#   LEFT join in Python
+df_left = pd.merge(left=raw_df, right=df_host_dim, on="host_id", how='left')
+print(len(df_left))
+
+#   RIGHT join in Python
+df_right = pd.merge(left=raw_df, right=df_host_dim, on="host_id", how='right')
+print(len(df_right))
+
 
 #   LOAD
 #   Write the data to a table, or a view. 
