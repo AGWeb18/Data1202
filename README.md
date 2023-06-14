@@ -18,7 +18,7 @@ Before starting, you should have a basic understanding of:
 - Finish off developing a "JOIN" in Python
 
 # Join the two DataFrames on a common column
-# Replace 'common_column' with the name of the column that the two tables have in common
+- Replace 'common_column' with the name of the column that the two tables have in common
 
 ```py
 #   JOIN Syntax
@@ -65,7 +65,9 @@ print(sum(my_list))  # Outputs: 15
 # sorted function
 print(sorted(my_list, reverse=True))  # Outputs: [5, 4, 3, 2, 1]
 
-########
+###############################
+
+
 # Create your own function 
 def my_function(arg1, arg2):
     # Your code here
