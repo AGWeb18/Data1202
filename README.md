@@ -64,4 +64,16 @@ print(sum(my_list))  # Outputs: 15
 
 # sorted function
 print(sorted(my_list, reverse=True))  # Outputs: [5, 4, 3, 2, 1]
+
+########
+# Create your own function 
+def my_function(arg1, arg2):
+    # Your code here
+    result = arg1 + arg2
+    return result
+
+# Call the function
+print(my_function(5, 3))  # Outputs: 8
+
+
 ```
