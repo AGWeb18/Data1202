@@ -81,4 +81,11 @@ print(my_function(5, 3))  # Outputs: 8
 ```
 
 
-#    Week 8 - Functions / Python Aggregations
+#    Week 8 - Functions - For Loops - Visualizations
+
+- Review of Functions
+
+- For Loops vs Vectorization
+
+- Visualization using Matplotlib in Python
+
