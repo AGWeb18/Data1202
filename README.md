@@ -1,6 +1,12 @@
 # Data1202
 This course walks through basics SQL and python data transformations
 
+### Course Description:
+Students are introduced to different scripting language tools such as SQL, NOSQL, Python and Pandas that support
+data analysis on large volumes of data. They will also analyze the strengths and limitations of current tools used
+today. Students will review and recommend which tools will best support data analysis, data quality, problem solving,
+analysis, data quality, problem solving, analytics, and business decision-making for different functions and industries.
+
 ### Pre-Requisites 
 Before starting, you should have a basic understanding of:
 
