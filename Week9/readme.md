@@ -1,8 +1,10 @@
 # Week 9 
 
-- Data Visualization
-- (More) Practice with Functions
+## Introduction 
 
+- Data Visualization
+- (More) Practice with Python & Data Transformations
+- 
 Part 2: 
 - Practice python transformations and building visualizations with Excel or matplotlib.
 
@@ -13,3 +15,7 @@ Part 2:
   - How many unique genres are there and how would you visualize this?
 - #### Create a `Decade` column and visualise this with the appropriate visual.
   - What visual did you choose and why? 
+
+### Create a file called `week9_part2.py` to answer the questions above. 
+
+### - BONUS: Create a function to do this and put it in a separate file. 
