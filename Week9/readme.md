@@ -4,8 +4,8 @@
 
 - Data Visualization
 - (More) Practice with Python & Data Transformations
-- 
-Part 2: 
+  
+# Part 2: 
 - Practice python transformations and building visualizations with Excel or matplotlib.
 
 ## Questions to answer
