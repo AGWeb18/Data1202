@@ -11,4 +11,5 @@ Part 2:
   - Visualize the top 5 in a column or pie chart
 - #### What is the distribution of the genres for the top 100 games?
   - How many unique genres are there and how would you visualize this?
-  
+- #### Create a `Decade` column and visualise this with the appropriate visual.
+  - What visual did you choose and why? 
