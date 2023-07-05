@@ -2,15 +2,10 @@ import pandas as pd
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.chart import BarChart, Series, Reference
+from w9_helper import num_games
 
 file_name = 'videogame/vgsales.csv'
 raw_df = pd.read_csv(file_name)
-
-#   How many games per platform
-#   CREATE A FUNCTION TO DO THIS ****  
-def num_games(_df, groupby_col, value_col):
-    _games_df = _df.groupby([groupby_col])[value_col].count().reset_index()
-    return _games_df
 
 games_df = num_games(raw_df, "Platform", "Name")
 games_df = games_df.sort_values('Name', ascending=False)[:5]
