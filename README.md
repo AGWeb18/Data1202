@@ -1,4 +1,5 @@
 # Data1202
+##  SQL & Python
 This course walks through basics SQL and python data transformations
 
 ### Course Description:
