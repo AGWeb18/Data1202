@@ -33,3 +33,18 @@ Before starting, you should have a basic understanding of:
 
 - Visualization using Matplotlib in Python
 
+- Formatted Markdown Code Snippets
+  
+```sql
+SELECT *
+FROM db_name.tbl_name
+WHERE tbl_name = 'hello'
+```
+
+```py
+import pandas as pd
+FILE_NAME = ''
+raw_df = pd.read_csv(FILE_NAME)
+```
+
+
