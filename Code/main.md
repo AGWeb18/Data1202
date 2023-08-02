@@ -5,7 +5,8 @@ The transformation in SQL ARE:
 
 
 ```sql
-SELECT * FROM TABLE
+SELECT *
+FROM TABLE
 WHERE COL =''
 ```
 
